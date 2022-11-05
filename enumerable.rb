@@ -20,4 +20,20 @@ module Enumberable
     end
     result
   end
+
+  def sort
+    result = self.to_a
+    result.sort!
+    result
+  end
+
+  def max
+    result = self.to_a
+    result.max
+  end
+
+  def min
+    result = self.to_a
+    result.min
+  end
 end
