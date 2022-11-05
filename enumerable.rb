@@ -12,4 +12,12 @@ module Enumberable
     end
     false
   end
+
+  def filter
+    result = []
+    for i in self
+      result << i if yield i
+    end
+    result
+  end
 end
