@@ -1,7 +1,7 @@
-require relative: 'enumerable'
+require_relative 'enumerable'
 
 class List
-  include enumerable
+  include Enumberable
   def initialize(list)
     @list = list
   end
