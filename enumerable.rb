@@ -21,19 +21,27 @@ module Enumberable
     result
   end
 
-  # def sort
-  #   result = self.to_a
-  #   result.sort!
-  #   result
-  # end
+  def sort
+    result = []
+    each do |i|
+      result << i
+    end
+    result.sort
+  end
 
-  # def max
-  #   result = self.to_a
-  #   result.max
-  # end
+  def max
+    result = []
+    each do |i|
+      result << i
+    end
+    result.sort[-1]
+  end
 
-  # def min
-  #   result = self.to_a
-  #   result.min
-  # end
+  def min
+    result = []
+    each do |i|
+      result << i
+    end
+    result.sort[0]
+  end
 end
