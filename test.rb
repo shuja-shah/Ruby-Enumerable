@@ -19,3 +19,7 @@ puts list.max
 puts list.min
 
 puts list.sort
+
+puts list.add(200)
+
+puts list.add(400)

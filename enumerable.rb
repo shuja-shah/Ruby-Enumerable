@@ -44,4 +44,12 @@ module Enumberable
     end
     result.sort[0]
   end
+
+  def add (num)
+    result = []
+    each do |i|
+      result << i
+    end
+    result << num
+  end
 end
